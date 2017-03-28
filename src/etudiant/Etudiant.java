@@ -2,8 +2,11 @@ package etudiant;
 
 public class Etudiant {
 	private String nom;
+	public Etudiant(String nom){
+		this.nom = nom;
+	}
 	
-	public String Etudiant(String nom){
+	public String getNom(){
 		return this.nom = nom;
 	}
 	
