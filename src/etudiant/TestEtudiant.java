@@ -9,7 +9,7 @@ public class TestEtudiant {
 		System.out.println("Donnez le nom de l'étudiant ");
 		Scanner clavier = new Scanner(System.in);
 		String nom = clavier.nextLine();
-		
+		etudiant.travailler();
+		etudiant.seReposer();
 	}
-
 }
