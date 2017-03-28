@@ -9,10 +9,8 @@ public class TestEtudiant {
 		Scanner clavier = new Scanner(System.in);
 		String nom = clavier.nextLine();
 		Etudiant etudiant = new Etudiant(nom);
-		if(nom == "Pierre"){
 		etudiant.travailler();
-		}else{
 		etudiant.seReposer();
 		}
 	}
-}
+
